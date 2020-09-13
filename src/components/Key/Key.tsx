@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import React from 'react'
+import { FunctionComponent } from 'react'
 import { NoteType } from '../../domain/note'
 
 interface KeyProps {
@@ -8,7 +9,7 @@ interface KeyProps {
   disabled?: boolean
 }
 
-const Key: FunctionalComponent<KeyProps> = (props) => {
+const Key: FunctionComponent<KeyProps> = (props) => {
   const { type, label, ...rest} = props
   return (
     <div>
