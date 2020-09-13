@@ -1,6 +1,6 @@
 import React from 'react'
 import { keyboard } from "../Keyboard"
-import { NoAudioMessage } from "../NoAudioMessage"
+import  NoAudioMessage  from "../NoAudioMessage/NoAudioMessage"
 import { useAudioContext } from "../AudioContextProvider/useAudioContext"
 import { FunctionComponent } from 'react'
 
