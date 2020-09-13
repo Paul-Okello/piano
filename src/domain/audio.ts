@@ -1,4 +1,3 @@
-import { AudioContextType } from "../react-app-env";
 import { Optional } from "./type";
 
 export function accessContext(): Optional<AudioContextType> {
