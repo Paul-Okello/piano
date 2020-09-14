@@ -2,6 +2,7 @@ import clsx from 'clsx'
 import React from 'react'
 import { FunctionComponent } from 'react'
 import { NoteType } from '../../domain/note'
+import "./style.css"
 
 interface KeyProps {
   type: NoteType
